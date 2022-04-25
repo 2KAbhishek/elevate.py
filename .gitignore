@@ -1,1 +1,3 @@
 # Excluded files
+*.pyc
+__pycache__
