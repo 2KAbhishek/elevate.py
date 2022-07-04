@@ -2,6 +2,7 @@ class Elevator:
     """
     Elevator class
     """
+
     def __init__(self, max_floor, min_floor, current_floor, direction):
         self.max_floor = max_floor
         self.min_floor = min_floor
@@ -10,8 +11,8 @@ class Elevator:
 
     def __str__(self):
         """Returns the elevator's current state"""
-        return "Elevator is on floor {} going {}".format(self.current_floor, self.direction)
-
+        return "Elevator is on floor {} going {}".format(self.current_floor,
+                                                         self.direction)
 
     def open_door(self):
         """Elevator door opens"""
@@ -24,12 +25,14 @@ class Elevator:
     def go_up(self):
         """Elevator goes up"""
         self.current_floor += 1
-        print("The elevator is going up to floor {}".format(self.current_floor))
+        print("The elevator is going up to floor {}"
+              .format(self.current_floor))
 
     def go_down(self):
         """Elevator goes down"""
         self.current_floor -= 1
-        print("The elevator is going down to floor {}".format(self.current_floor))
+        print("The elevator is going down to floor {}"
+              .format(self.current_floor))
 
     def get_current_floor(self):
         """Returns the current floor"""
