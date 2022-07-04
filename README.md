@@ -23,82 +23,37 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.jpg" alt="elevate.py Demo" style="width:100%">
-  <br/>
-  <figcaption>elevate.py screenshot</figcaption>
-</figure>
+<h3>Simulate an elevator with OOP 🎲🏢</h3>
 
 </div>
 
 ## What is this
 
-elevate.py is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Uses OOP and `python` to simulate features of an elevator.
 
 ## Inspiration
 
-elevate.py was inspired by `<reason/idea>`.
+Created for teaching OOP in python.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `python`
 
 ## Getting elevate.py
 
-To install elevate.py, follow these steps:
+To run elevate.py, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/elevate.py
 cd elevate.py
-<install_command>
-```
-
-## Using elevate.py
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+python src/elevator_test.py
 ```
 
 ## How it was built
 
-elevate.py was built using `<tech/library>`
-
-## Challenges faced
-
-While building elevate.py the main challenges were `<issue/difficulty>`
-
-## What I learned
-
-While building elevate.py I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+elevate.py was built using `neovim` and `python`
 
 Hit the ⭐ button if you found this useful.
 
